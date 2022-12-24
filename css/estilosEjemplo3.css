@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+}
+
+.encabezado {
+    /* Regla de estilo que se aplicara a los elementos que tengan la clase encabezado */
+    margin: 0 auto;
+    /* Margen Exterior */
+    background-color: rgb(2, 2, 2);
+    padding: 10px;
+    /* Margen Interior */
+    text-align: right;
+    /* Alineacion del texto */
+    border: 3px solid rgb(247, 0, 0);
+    /* Propiedades del borde : grosor, tipo, color */
+}
+
+.menu h1 {
+    /* Regla de estilo que se aplicara a los elementos que estan dentro del elmento que tiene la clase menu */
+    color: rgb(241, 3, 3);
+    text-align: center;
+}
+
+.enlaces {
+    /* Flexbox */
+    color: rgb(216, 21, 21);
+    display: flex;
+    gap: 20px;
+}
+
+
+/* .enlaces li {
+    list-style: none;
+}*/
+
+.menuItem {
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menuItem a div {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(194, 17, 17);
+    color: white;
+}
+
+
+/* Psudoclases : hover> cuando el cursor esta encima */
+
+.menuItem a div:hover {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(14, 13, 13);
+    border-radius: 20px;
+    box-shadow: 2px 2px 6px rgb(255, 253, 253);
+    color: rgb(250, 250, 250);
+}
+
+.contenido {
+    background-color: rgb(0, 0, 0);
+    margin-top: 20px;
+    /* borde de el elemento: grosor tipo color */
+    border: 2px solid rgb(235, 18, 18);
+    /* curvatura del cada esquina : ESI ESD EID EII | uno para todos */
+    /* border-radius: 50px 30px 15px 5px; */
+    border-radius: 20px;
+    /* Color de fondo*/
+    /* background-color: antiquewhite;*/
+    /* Ancho */
+    width: 90%;
+    /* Alto */
+    height: 520px;
+    /* Margen exterior  */
+    margin-left: 4%;
+    /* margin-top: 5px;
+    margin-bottom: 15px;
+    margin-right: 5%; */
+    /* Margen interior */
+    color: rgb(231, 0, 0);
+    /* Fondo con degradado de colores */
+    /*background: linear-gradient(-15deg, #FFFFFF, #581edf, #ade90a, #ABC000);*/
+    /* background: linear-gradient(to left, #000000, #FFFFFF, #999999); */
+    /*background: linear-gradient(to top, transparent, #666666, #ade90a, #ABC000);*/
+    box-shadow: 5px 5px 15px rgb(221, 211, 211);
+    padding: 1%;
+}
+
+.inombre {
+    
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(243, 243, 243);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px;
+}
+
+.inombre:hover {
+    background-color: white;
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.botones:hover {
+    border: 2px solid rgb(20, 20, 224);
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.botones {
+    border: 0.5px solid rgb(5, 5, 5);
+    background-color: cornsilk;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px;
+}
+.Adjuntar:hover {
+    border: 0.5px solid skyblue;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px;
+
+}
+.cuadroTexto {
+    border: 0.5px solid rgb(243, 10, 10);
+    background-color: rgb(14, 13, 13);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url(colores.jpg);   
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
